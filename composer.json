@@ -1,0 +1,22 @@
+{
+    "name": "stark/router",
+    "description": "The router for the Stark project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Rolfe",
+            "email": "christopher.rolfe198@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stark\\Router\\": "lib/"
+        }
+    },
+    "require": {
+        "stark/contracts": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.3.*"
+    }
+}
