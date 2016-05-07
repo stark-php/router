@@ -36,7 +36,7 @@ class Router implements RouterContract
         $this->routes[$request_url] = $function_to_process_route;
     }
 
-    public function getRoutes()
+    public function getRoutes(): array
     {
         return $this->routes;
     }
